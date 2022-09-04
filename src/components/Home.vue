@@ -49,14 +49,14 @@
           <div class='servicedescription'>
             <router-link to="/banned-accounts"><h2><span class='servicelink'>Banned Accounts</span></h2></router-link>
             <p class='servicedescription'>
-              Scroll through over <span class='integer'>{{totalBans.toLocaleString()}}</span> account bans here!
+              Scroll through over <span class='integer'>{{totalBans.toLocaleString()}}</span> account bans <router-link to="/banned-accounts">here</router-link>!
             </p>
           </div>
 
           <div class='servicedescription'>
             <router-link to="/faq"><h2><span class='servicelink'>Frequently Asked Questions</span></h2></router-link>
             <p class='servicedescription'>
-              Have a question about the Plugin? We've answered most of them here!
+              Have a question about the Plugin? We've answered most of them <router-link to="/faq">>here</router-link>!
             </p>
           </div>
 
@@ -70,7 +70,7 @@
           <div class='servicedescription'>
             <router-link to="/contact-us"><h2><span class='servicelink'>Contact Us</span></h2></router-link>
             <p class='servicedescription'>
-              Want to get in touch with us? Click here!
+              Want to get in touch with us? Click <router-link to="/contact-us">here</router-link>!
             </p>
           </div>
 
@@ -225,7 +225,7 @@ div.servicedescription {
 
 p.servicedescription {
   text-align:left;
-  margin-bottom:0;
+  margin-bottom: 16px;
 }
 
 hr.break {
